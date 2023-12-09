@@ -7,6 +7,7 @@ public record Vector(int x, int y)
     public static final Vector IDENTITY = new Vector( 1, 1 );
     public static final Vector UNIT_X = new Vector( 1, 0 );
     public static final Vector UNIT_Y = new Vector( 0, 1 );
+    public static final Vector ORIGIN = new Vector( 0, 0 );
 
     public Vector add( Vector that )
     {
